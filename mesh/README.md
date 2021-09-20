@@ -7,7 +7,7 @@ Moreover, Traefik Mesh is opt-in by default, which means that your existing serv
 
 ## Prerequisites
 
-- Kubernetes 1.11+
+- Kubernetes 1.16+
 - CoreDNS/KubeDNS installed as [Cluster DNS Provider](https://kubernetes.io/docs/tasks/administer-cluster/dns-custom-nameservers/) (versions 1.3+ supported)
 - [Helm v3](https://helm.sh/docs/intro/install/)
 
