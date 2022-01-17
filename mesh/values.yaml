@@ -54,7 +54,7 @@ proxy:
     # (Optional)
     # pullPolicy: IfNotPresent
     # (Optional)
-    # tag: v2.3
+    # tag: v2.5
     # (Optional)
     # pullSecret: xxx
 

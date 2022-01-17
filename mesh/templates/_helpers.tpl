@@ -18,7 +18,7 @@ Define the templated controller image with tag.
 Define the templated proxy image with tag.
 */}}
 {{- define "traefikMesh.proxyImage" -}}
-    {{- printf "%s:%s" .Values.proxy.image.name ( .Values.proxy.image.tag | default "v2.3" ) -}}
+    {{- printf "%s:%s" .Values.proxy.image.name ( .Values.proxy.image.tag | default "v2.5" ) -}}
 {{- end -}}
 
 {{/*
