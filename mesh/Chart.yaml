@@ -1,7 +1,7 @@
 apiVersion: v2
 name: traefik-mesh
-version: 4.0.3
-appVersion: v1.4.7
+version: 4.0.4
+appVersion: v1.4.8
 description: Traefik Mesh - Simpler Service Mesh
 type: application
 keywords:

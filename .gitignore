@@ -20,3 +20,4 @@ repo/
 __snapshot__
 
 .idea
+.DS_Store
