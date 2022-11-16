@@ -26,8 +26,8 @@ jobs:
 
       - name: Copy LICENSE and README.md for packaging
         run: |
-            cp ./README.md ./hub-agent/README.md
-            cp ./LICENSE ./hub-agent/LICENSE
+            cp ./README.md ./mesh/README.md
+            cp ./LICENSE ./mesh/LICENSE
 
       - name: Get chart verison
         id: chart_version
