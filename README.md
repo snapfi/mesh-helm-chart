@@ -24,6 +24,14 @@ $ helm install traefik-mesh traefik/traefik-mesh
 You can use the `--namespace my-namespace` flag to deploy Traefik Mesh in a custom namespace and the `--set "key1=val1,key2=val2,..."` flag to configure it.
 Where `key1=val1`, `key2=val2`, `...` are chart values that you can find in the [values.yaml](https://github.com/traefik/mesh-helm-chart/tree/master/mesh/values.yaml) file.
 
+### Upgrading CRDs
+
+With Helm v3, CRDs created by this chart can not be updated, cf the [Helm Documentation on CRDs](https://helm.sh/docs/chart_best_practices/custom_resource_definitions). Please read carefully release notes of this chart before upgrading CRDs.
+
+```bash
+kubectl apply --server-side --force-conflicts -k https://github.com/traefik/mesh-helm-chart/mesh/crds/
+```
+
 ## Uninstalling the Chart
 
 To uninstall the chart with the release name `traefik-mesh`:
